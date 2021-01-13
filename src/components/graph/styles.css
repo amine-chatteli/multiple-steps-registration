@@ -1,0 +1,41 @@
+.chart {
+    width: 100%;
+    height: auto;
+}
+
+.date {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.toggle-date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.toggle-date>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.line {
+    display: block;
+    height: 2px;
+    width: 30px;
+    background-color: #3751FF;
+}
+
+.graph-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

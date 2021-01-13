@@ -1,0 +1,61 @@
+.step {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 150px;
+}
+
+.step-bar {
+    width: 30%;
+    height: 3px;
+    background-color: grey
+}
+
+.step-number {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    color: grey;
+}
+
+.step-name {
+    color: grey;
+}
+
+.step-bar-active {
+    border: 2px solid blue;
+}
+
+.step-number-active {
+    color: blue;
+    border: 2px solid blue;
+}
+
+.step-name-active {
+    font-weight: bold;
+    color: black;
+}
+
+.unique-first-step {
+    border: none;
+    padding-left: 20%;
+}
+
+@media screen and (max-width: 850px) {
+    .step-bar {
+        display: none;
+    }
+    .step{
+        justify-content: flex-start;
+        margin: 5%;
+    }
+    .unique-first-step{
+        padding-left: unset;
+    }
+}
